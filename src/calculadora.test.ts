@@ -14,7 +14,7 @@ describe('Calculadora de operações', () => {
     expect(multiplicar(4, 3)).toBe(12);
   });
 
-  it('deve dividir dois números corretamente', () => {
+  it("deve dividir dois números corretamente", () => {
     expect(dividir(10, 2)).toBe(5);
   });
 
