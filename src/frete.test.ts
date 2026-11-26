@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { calcularFrete } from './frete';
 
 describe('Cálculo de frete', () => {
-  it('deve cobrar R$ 20 de frete para compras abaixo de R$ 100', () => {
+  it("deve cobrar R$ 20 de frete para compras abaixo de R$ 100", () => {
     expect(calcularFrete(50)).toBe(20);
     expect(calcularFrete(99.99)).toBe(20);
   });
