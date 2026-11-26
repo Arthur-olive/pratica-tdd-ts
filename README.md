@@ -1,7 +1,7 @@
 # Prática de TDD — TypeScript + Vitest
 
 **Aluno:** João Arthur de Oliveira Pereira  
-**Disciplina:** Engenharia de Software  
+**Disciplina:** Gerência de Software  
 
 ## Sobre o Projeto
 
