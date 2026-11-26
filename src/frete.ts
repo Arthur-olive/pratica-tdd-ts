@@ -1,6 +1,6 @@
 export function calcularFrete(valorCompra: number): number {
   if (valorCompra < 0) {
-    throw new Error("O valor da compra não pode ser negativo");
+    throw new Error('O valor da compra não pode ser negativo');
   }
 
   if (valorCompra < 100) {
