@@ -4,7 +4,7 @@ function arredondarDuasCasas(valor: number): number {
 
 export function calcularValorComDesconto(valorCompra: number): number {
   if (valorCompra < 0) {
-    throw new Error("O valor da compra não pode ser negativo");
+    throw new Error('O valor da compra não pode ser negativo');
   }
 
   let taxaDesconto = 0;
